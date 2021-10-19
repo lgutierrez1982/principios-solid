@@ -1,0 +1,15 @@
+Definicion
+Las entidades deben estar abierta a extension, pero cerradas a modificacion
+-Entidades se refiere a clases, metodos o funciones
+
+Cuando programes el codigo lo hagas de tal manera que no tengas que volver a tocarlo, aun cuando
+esa clase o metodo requiera que hagas algo completamente diferente
+
+Ejemplo: Una mano, con una mano puedes realizar muchas acciones, pero para realizar acciones nuevas
+no te la quitas y la abres para modificarla cada vez que necesitas hacer cosas nuevas,
+    -Cortar un pan, requieres cuchillos
+    -cortar papel, requeiere tijeras
+    -Cortar madera, requieres un hacha
+"NO ES NECESARIO MIRAR DENTRO DE ELLA PARA METER UNA NUEVA FUNCIONALLIDAD"
+"POR LO TANTO SI ES POSIBLE EXTENDER EL COMPORTAMIENTO DE UNA CLASE SIN MODIFICAR EL COMPORTAMIENTO ORIGINAL"
+
