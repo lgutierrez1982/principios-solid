@@ -1,0 +1,14 @@
+Interface Segregation(segregar las interfaces) segregar: separar, apartar,dividir,etc...
+-Ningun cliente debe ser forzado a depender de metodos que no usa
+-Es mejor tener muchas clases especializadas, que tener mucho codigo en una clase donde no se usa el 100%
+
+Codigo Ejemplo:
+-Al crear pequeñas interfaces estamos separando los roles y responsabilidades, ejemplo roles de jugar, flotar, hacer cuak
+    estan separados y las responsabilidades estan en cada clase, tambien se esta favoreciendo la composicion sobre
+    la herencia, es decir la clase estanque puede estas compuesta de dinstantos tipos de patos o tambien cualquier
+    tipo de clase que puede jugar en el estanque, para mostrar en un ejemplo se crea la clase rana
+-Al usar herencia el estanque podria solo recibir clases hijas de clase Pato
+-Al usar composicion en la clase estanque puede jugar cualquier objeto y no depende de un clase sino de una interfaz
+
+PD: intentar usar composicion sobre herencia
+
