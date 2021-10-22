@@ -1,0 +1,3 @@
+Single Responsability(SR)
+-una clase debe tener una, y solo una, razón para cambiar
+-Una clase debe tener una unica responsabilidad(no porque puedas colocar todoel en un solo lado, es que debas hacerlo)
