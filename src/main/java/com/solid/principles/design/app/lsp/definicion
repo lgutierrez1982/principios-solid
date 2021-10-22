@@ -1,0 +1,4 @@
+Liskov Subtitution
+-S es un subtitpo de T, T puede ser reemplazada con objetos del tipo S, sin alterar
+el comportamiento esperado del programa.
+-Las clases hijas no deben romper las interfaces del padre
